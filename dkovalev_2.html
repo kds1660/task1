@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyGame</title>
+        <link rel="stylesheet" href="mygame.css">
+
+</head>
+<body>
+<div id="myWrapper">
+    <input type="button" name="clearButton" onclick="clearButton()" value="Очистить">
+    <div class="circleFrame">
+        <div id="firstYellowCircle"
+             class="circle"
+             draggable="true" ondragstart="event.dataTransfer.setData('text/plain',event.target.id)">
+        </div>
+    </div>
+    <div class="crossFrame">
+        <div id="firstYellowCross"
+             class="cross"
+             draggable="true" ondragstart="event.dataTransfer.setData('text/plain',event.target.id)">
+        </div>
+    </div>
+</div>
+<script src="mygame.js"></script>
+</body>
+</html>

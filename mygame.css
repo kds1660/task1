@@ -1,0 +1,82 @@
+#wrapper {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.circleFrame {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+}
+
+.crossFrame {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    border-radius: 5px;
+    float: right;
+}
+
+.circle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 30px;
+    top: 30px;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.circle:after {
+    position: relative;
+    content: '\20DD';
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+    top: -18px;
+}
+
+.cross {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    border-radius: 5px;
+    left: 30px;
+    top: 30px;
+}
+
+.cross:after {
+    position: relative;
+    content: "\d7";
+    font-size: 100px;
+    color: red;
+    font-weight: bold;
+    top: -28px;
+    left: 2px
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #BBCC25;
+    padding: 10px;
+}
+
+.clone {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto
+}
+
+.active {
+    border: 3px solid red;
+}
